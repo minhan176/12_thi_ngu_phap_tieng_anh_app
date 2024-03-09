@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/adapterHTTD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:text="HIỆN TẠI HOÀN THÀNH TIẾP DIỄN"
+            android:textColor="#FF5722"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="(Present Perfect Continuous)"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="1. Định nghĩa"
+            android:textColor="#FF5722"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:lineSpacingExtra="7dp"
+            android:text="Thì Hiện Tại Hoàn Thành Tiếp Diễn là thì dùng để chỉ hành động xảy ra trong quá khứ nhưng vẫn tiếp tục ở hiện tại và có khả năng tiếp diễn trong tương lai. Chủ yếu nhấn mạnh về khoảng thời gian của hành động đã xảy ra nhưng không có kết quả rõ rệt."
+            android:textColor="#494242"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="2. Công thức"
+            android:textColor="#FF5722"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF5722"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="  Khẳng định:"
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text=" S + have/ has + been + V-ing"
+                        android:textColor="#FF5722"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="   Ví dụ:"
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text=" They have been waiting for 5 hours."
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="  Phủ định:"
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text=" S + haven’t/ hasn’t + been + V-ing"
+                        android:textColor="#FF5722"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="   Ví dụ:"
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text=" She hasn’t been doing her homework."
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="  Nghi vấn:"
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text=" Have/ Has + S + been + V-ing ?"
+                        android:textColor="#FF5722"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="   Ví dụ:"
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text=" Has you been staying up late?"
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#43A847"
+            android:orientation="vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="3. Cách sử dụng"
+            android:textColor="#FF5722"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="- Diễn tả hành động bắt đầu ở quá khứ và còn đang tiếp tục ở hiện tại (nhấn mạnh tính liên tục). "
+            android:textColor="#494242"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="Ví dụ: She has been waiting for you all day. (Cô ấy đã đợi bạn cả ngày)"
+            android:textColor="#494242"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="- Diễn tả hành động đã kết thúc trong quá khứ nhưng chúng ta quan tâm tới kết quả ở hiện tại."
+            android:textColor="#494242"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="Ví dụ: I am very tired now because I have been working hard for 12 hours.  (Bây giờ tôi rất mệt vì tôi đã làm việc vất vả trong 12 tiếng đồng hồ)"
+            android:textColor="#494242"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:text="- Nhấn mạnh sự tiếp diễn của hành động kéo dài từ quá khứ và còn tiếp tục đến hiện tại."
+            android:textColor="#494242"
+            android:lineSpacingExtra="7dp"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="Ví dụ: I have been writing this assignment since morning. (Tôi đã và vẫn đang viết bài luận này từ sáng)"
+            android:textColor="#494242"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="4. Dấu hiệu nhận biết"
+            android:textColor="#FF5722"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="Khi trong câu xuất hiện các trạng từ như:\n– How long: bao lâu\n– Since + mốc thời gian. Ví dụ: since 2000
+                            \n– For + khoảng thời gian. Ví dụ: for 3 years
+                            \n– All one’s life: cả đời
+                            \n– All day/ all morning: cả ngày/ cả buổi sáng
+                            "
+            android:textColor="#494242"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hoanthanh1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Đã hoàn thành"
+            android:textColor="#00FF04"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="29dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/tick_xanhs1" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="3dp">
+
+        <TextView
+            android:id="@+id/textBT1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="ĐÁNH DẤU ĐÃ HOÀN THÀNH" />
+
+        <Button
+            android:id="@+id/btHTD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Button
+
+            android:id="@+id/btHTD1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/saveHTD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

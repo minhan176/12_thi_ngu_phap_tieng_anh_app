@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/adapterHTTD"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="bottom|center"
+            android:text="TƯƠNG LAI TIẾP DIỄN"
+            android:textColor="#009688"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="(Future Continuous)"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="1. Định nghĩa"
+            android:textColor="#009688"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:lineSpacingExtra="7dp"
+            android:text="Thì tương lai tiếp diễn (Future Continuous) được dùng để nói về 1 hành động đang diễn ra tại một thời điểm xác định trong tương lai."
+            android:textColor="#494242"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="2. Công thức"
+            android:textColor="#009688"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="  Khẳng định:"
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text=" S + will + be + V-ing"
+                        android:textColor="#009688"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="  Ví dụ: "
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text="I will be working from tomorrow."
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="  Phủ định:"
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text=" S + will not + be + V-ing"
+                        android:textColor="#009688"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="  Ví dụ: "
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text="We will be studying at 8 a.m tomorrow."
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="  Nghi vấn:"
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text=" Will + S + be + V-ing?"
+                        android:textColor="#009688"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|right"
+                        android:text="  Ví dụ: "
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text="Will you be studying next Tuesday?"
+                        android:textColor="#494242"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#43A847"
+            android:orientation="vertical"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="3. Cách sử dụng"
+            android:textColor="#009688"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="- Dùng để diễn tả một hành động hay sự việc đang diễn ra tại một thời điểm xác định trong tương lai."
+            android:textColor="#494242"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="Ví dụ: We will be climbing the mountain at this time next Saturday.  (Chúng tôi sẽ đang leo núi vào thời điểm này thứ 7 tuần tới)"
+            android:textColor="#494242"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="- Dùng để diễn tả một hành động, một sự việc đang xảy ra thì một hành động, sự việc khác xen vào trong tương lai."
+            android:textColor="#494242"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="Ví dụ: You come to his house tomorrow, he will be playing soccer.  (Bạn đến nhà anh ấy vào ngày mai, anh ấy sẽ đang chơi đá bóng)"
+            android:textColor="#494242"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:text="- Hành động sẽ diễn ra và kéo dài liên tục suốt một khoảng thời gian ở tương lai."
+            android:textColor="#494242"
+            android:lineSpacingExtra="7dp"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="Ví dụ: I will be staying with my grandma for the next 2 weeks.  (Tôi sẽ ở với bà trong 2 tuần tới)"
+            android:textColor="#494242"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:text="- Diễn tả một hành động, sự việc sẽ diễn ra theo thời gian biểu hoặc theo một phần của kế hoạch (Tương lai gần và xa)."
+            android:textColor="#494242"
+            android:lineSpacingExtra="7dp"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="Ví dụ: This lesson will be starting at 8 am next Monday.  (Bài giảng này sẽ bắt đầu vào 8 giờ sáng thứ Hai tới)"
+            android:textColor="#494242"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:gravity="center|left"
+            android:text="4. Dấu hiệu nhận biết"
+            android:textColor="#009688"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:lineSpacingExtra="7dp"
+            android:text="Trong câu thường xuất hiện các trạng từ chỉ thời gian cùng với thời điểm xác định:\n– At this time/ at this moment + thời gian trong tương lai\n– At + giờ cụ thể + thời gian trong tương lai
+                            \n– Từ nhận biết: In the future, next year, next week, next time, and soon...
+                            "
+            android:textColor="#494242"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hoanthanh1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Đã hoàn thành"
+            android:textColor="#00FF04"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="29dp"
+            android:layout_weight="1"
+            app:srcCompat="@mipmap/tick_xanhs1" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="3dp">
+
+        <TextView
+            android:id="@+id/textBT1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="ĐÁNH DẤU ĐÃ HOÀN THÀNH" />
+
+        <Button
+            android:id="@+id/btHTD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Button
+
+            android:id="@+id/btHTD1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:foreground="?attr/selectableItemBackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/saveHTD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

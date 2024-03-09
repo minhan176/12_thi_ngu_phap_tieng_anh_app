@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rosion.grammar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Grammar">
+        <activity android:name=".TuongLaiHTTD"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".TuongLaiHT"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".TuongLaiTD"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".TuongLaiD" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".QuaKhuHTTD" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".QuaKhuHT" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".QuaKhuTD" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".QuaKhuD" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HienTaiHTTD" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HienTaiHT" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".LuyenTapMuoi" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".LuyenTapChin" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".LuyenTapBay" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".LuyenTapTam" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".LuyenTapSau" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".LuyenTapBon" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".LuyenTapNam" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".LuyenTapBa" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".LuyenTapHai" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".LuyenTapMot" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HienTaiD" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HienTaiTD" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HomeActivity" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Sample AdMob app ID: ca-app-pub-9002559574859995~9231651280ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9002559574859995~9231651280" />
+    </application>
+
+</manifest>
